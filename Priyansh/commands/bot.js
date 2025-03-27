@@ -531,7 +531,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
        return api.sendMessage("🏔️🏝️ Romiyo Ƞɛ ꌗƥɛçɪɑɭɭɣ Ƭuɱ 🌊🪺Jɑɪʂɛ Ƭɧɑɽƙɪɣɵ Ƙɛ Ɬɪɣɛ•• 🏞️🌬️Ɣɑɧ çɵɱɱɑƞɗ Ɦɑʈɑ Ɗɪɣɑ Ɦɑɪ↗↘ Sɵɽɽɣ Ɠɣuʂ••😹🫶", threadID);
      };
 
-    if ((event.body.toLowerCase() == "arman") || (event.body.toLowerCase() == "disha") || (event.body.toLowerCase() == "main romiyo") || (event.body.toLowerCase() == "main saho") || (event.body.toLowerCase() == "main rounak")) {
+    if ((event.body.toLowerCase() == "Nancy") || (event.body.toLowerCase() == "nancy") || (event.body.toLowerCase() == "main romiyo") || (event.body.toLowerCase() == "main saho") || (event.body.toLowerCase() == "main rounak")) {
        return api.sendMessage("🕊️🍎...Aɭɛ Ɱɛɹɛ Ɓɑɓɣ Ƙɛʂɛ Ɦɵ ɑɑp😚🍒", threadID);
      };
      mess = "{name}"
@@ -554,14 +554,14 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
       ❤️🌿🍒${name}🌿🥀💙, \n\n
           ${rand} 🤣🍁❤
 
-🦋_😻★💚⃝_🦋≧🌬️≦★ ⃝┼⟵꯭⃝😻_💚⃝,
+𐄪༆🦋ﮩ٨ـﮩﮩ٨ـ😻♡🌿ﮩ٨ـﮩﮩ٨ـ🦋༆𐄪,
 
 
                                         
 
- *★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝❦ ════ •⊰𝐉𝐀𝐍𝐍𝐀𝐓⊱• ════ ❦🍀🍒 ❥||ㅎ
+ *★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝❦ ════ •⊰𝐒𝐀𝐌𝐄𝐄𝐑⊱• ════ ❦🍀🍒 ❥||ㅎ
 
-🦋_😻★💚⃝_🦋≧🌬️≦★ ⃝┼⟵꯭⃝😻_💚⃝`
+𐄪༆🦋ﮩ٨ـﮩﮩ٨ـ😻♡🌿ﮩ٨ـﮩﮩ٨ـ🦋༆𐄪`
   }
   return api.sendMessage(msg, threadID, messageID);
 };
